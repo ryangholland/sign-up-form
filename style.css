@@ -29,3 +29,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* CSS Reset Above, Custom Styles Below */
+
+@font-face {
+    font-family: norse-bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: norse-bold, arial, sans-serif;
+}
