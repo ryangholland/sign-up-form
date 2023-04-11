@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Testing my font</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-side">
+        <img src="images/leaf-bg.jpg" alt="Leaves glistening with dew" />
+        <div class="odin-banner">
+          <img src="images/odin-lined.png" alt="Odin, the Allfather" />
+          <h1>ODIN</h1>
+        </div>
+        <p>Photo by Halie West on Unsplash</p>
+      </div>
+      <div class="right-side">
+        <div class="description-area">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-area">
+            <form>
+                <div class="form-box">
+                    <h2>Let's do this!</h2>
+                    <div class="form-row">
+                        <label for="first-name">First Name</label>
+                        <input type="text">
+                        <label for="last-name">Last Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="">
+                        <label for="conf-password">Confirm Password</label>
+                        <input type="password" name="conf-password" id="">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? Log in</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
