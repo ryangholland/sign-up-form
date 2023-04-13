@@ -184,3 +184,7 @@ input:valid {
 input:focus {
   outline: solid 1.5px blue;
 }
+
+input.invalid {
+  outline: solid 1.5px red;
+}
