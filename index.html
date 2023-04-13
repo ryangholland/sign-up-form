@@ -46,6 +46,9 @@
                     name="first-name"
                     id="first-name"
                     size="30"
+                    required
+                    minlength="2"
+                    maxlength="25"
                   />
                 </div>
                 <div class="input-block">
@@ -55,17 +58,34 @@
                     name="last-name"
                     id="last-name"
                     size="30"
+                    required
+                    minlength="2"
+                    maxlength="25"
                   />
                 </div>
               </div>
               <div class="form-row">
                 <div class="input-block">
                   <label for="email">Email</label>
-                  <input type="email" name="email" id="email" size="30" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    size="30"
+                    required
+                    maxlength="28"
+                  />
                 </div>
                 <div class="input-block">
                   <label for="phone">Phone Number</label>
-                  <input type="tel" name="phone" id="phone" size="30" />
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    size="30"
+                    required
+                    maxlength="28"
+                  />
                 </div>
               </div>
               <div class="form-row">
@@ -76,6 +96,9 @@
                     name="password"
                     id="password"
                     size="30"
+                    required
+                    minlength="2"
+                    maxlength="28"
                   />
                 </div>
                 <div class="input-block">
@@ -85,6 +108,9 @@
                     name="conf-password"
                     id="conf-password"
                     size="30"
+                    required
+                    minlength="2"
+                    maxlength="28"
                   />
                 </div>
               </div>

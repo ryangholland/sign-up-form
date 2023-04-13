@@ -152,7 +152,7 @@ label {
 
 button {
   padding: 0.75rem 3.25rem;
-  background-color: #596D48;
+  background-color: #596d48;
   color: white;
   font-size: 1.35rem;
   font-weight: bold;
@@ -170,4 +170,17 @@ button {
 
 .login-span {
   opacity: 0.8;
+}
+
+input {
+  padding: 0.1rem 0.5rem;
+  font-size: 1.1rem;
+}
+
+input:valid {
+  outline: solid 1.5px green;
+}
+
+input:focus {
+  outline: solid 1.5px blue;
 }
