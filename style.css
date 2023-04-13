@@ -149,3 +149,25 @@ label {
   font-weight: bold;
   font-size: 0.85rem;
 }
+
+button {
+  padding: 0.75rem 3.25rem;
+  background-color: #596D48;
+  color: white;
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-left: 2.1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.login-text {
+  color: #2e3925;
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.login-span {
+  opacity: 0.8;
+}
